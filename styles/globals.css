@@ -1,0 +1,71 @@
+/* styles/global.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a global font style */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Add spacing for content to prevent it from being hidden under the fixed header */
+body {
+  padding-top: 72px; /* Adjust the value based on your header height */
+}
+
+/* Apply some basic styling to the Navbar */
+header {
+  position: fixed;
+  background-color: #FFD700; /* McDonald's yellow color */
+  width: 100%;
+  z-index: 10;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style the links in the Navbar */
+header a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #000; /* Change color on hover */
+}
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  
+  .side-panel.show {
+    transform: translateX(0);
+  }
+
+/* Add more global styles as needed */
