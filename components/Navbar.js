@@ -28,7 +28,7 @@ const Navbar = () => {
         {/* Navigation links */}
         <ul className="flex text-white">
           <li className="mr-6">
-            <Link href="/index">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <Link href="/about">About</Link>
