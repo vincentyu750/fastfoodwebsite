@@ -23,11 +23,15 @@ const Layout = ({ children }) => {
 
       {/* Main content */}
       <div
-        className={`flex-1 transition-transform duration-300 ease-in-out ml-16 ${
+        className={`flex-1 transition-transform duration-300 ease-in-out ml-16 mr-16 ${
           isSidePanelOpen ? 'transform translate-x-1/4' : ''
         }`}
       >
         {children}
+      </div>
+            {/* Footnote */}
+            <div className="footnote">
+        <p>Images sourced from <a href="https://cheatdaydesign.com/" target="_blank" rel="noopener noreferrer">Cheat Day Design</a></p>
       </div>
     </div>
   );
