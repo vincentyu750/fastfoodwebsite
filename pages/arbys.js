@@ -22,7 +22,7 @@ const Arbys = () => {
         <h2 className="text-2xl font-bold mb-2">Arby&apos;s Chicken Menu</h2>
         <Image
           src="/images/Arbys/Arbys-Chicken-Menu-768x960.png.webp"
-          alt="Arby's Chicken Menu"
+          alt="Arby&apos;s Chicken Menu"
           className="w-full"
         />
       </div>
@@ -32,7 +32,7 @@ const Arbys = () => {
         <h2 className="text-2xl font-bold mb-2">Arby&apos;s Sides Menu</h2>
         <Image
           src="/images/Arbys/Arbys-Sides-Menu-768x960.png.webp"
-          alt="Arby's Sides Menu"
+          alt="Arby&apos;s Sides Menu"
           className="w-full"
         />
       </div>

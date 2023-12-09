@@ -5,11 +5,11 @@ import React from 'react';
 const Wendys = () => {
   return (
     <div className="container mx-auto my-8">
-      <h1 className="text-4xl font-bold mb-4">Wendy's</h1>
+      <h1 className="text-4xl font-bold mb-4">Wendy&apos;s</h1>
 
       {/* Wendy's Breakfast Menu */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Wendy's Breakfast Menu</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Breakfast Menu</h2>
         <Image
           src="/images/Wendys/Wendys-Breakfast-Menu-753x1080.jpg.webp"
           alt="Wendy's Breakfast Menu"
@@ -19,7 +19,7 @@ const Wendys = () => {
 
       {/* Wendy's Burger Menu */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Wendy's Burger Menu</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Burger Menu</h2>
         <Image
           src="/images/Wendys/Wendys-Burger-Menu-753x1080.jpg.webp"
           alt="Wendy's Burger Menu"
@@ -29,7 +29,7 @@ const Wendys = () => {
 
       {/* Wendy's Chicken Menu */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Wendy's Chicken Menu</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Chicken Menu</h2>
         <Image
           src="/images/Wendys/Wendys-Chicken-Menu-753x1080.jpg.webp"
           alt="Wendy's Chicken Menu"
@@ -39,7 +39,7 @@ const Wendys = () => {
 
       {/* Wendy's Dessert Menu */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Wendy's Dessert Menu</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Dessert Menu</h2>
         <Image
           src="/images/Wendys/Wendys-Dessert-Menu-768x804.jpg.webp"
           alt="Wendy's Dessert Menu"
@@ -49,7 +49,7 @@ const Wendys = () => {
 
       {/* Wendy's Menu Sides */}
       <div className="mb-8">
-        <h2 className="text-2xl font-bold mb-2">Wendy's Menu Sides</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Menu Sides</h2>
         <Image
           src="/images/Wendys/Wendys-Menu-Sides-753x1080.jpg.webp"
           alt="Wendy's Menu Sides"
@@ -59,7 +59,7 @@ const Wendys = () => {
 
       {/* Wendy's Salad Menu */}
       <div>
-        <h2 className="text-2xl font-bold mb-2">Wendy's Salad Menu</h2>
+        <h2 className="text-2xl font-bold mb-2">Wendy&apos;s Salad Menu</h2>
         <Image
           src="/images/Wendys/Wendys-Salad-Menu-768x692.jpg.webp"
           alt="Wendy's Salad Menu"

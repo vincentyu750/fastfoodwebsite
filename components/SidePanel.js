@@ -16,7 +16,7 @@ const SidePanel = ({ isOpen, closeMenu }) => {
     <ul className="fast-food-list">
       <Link href="/arbys">
         <li className="fast-food-item" onClick={closeMenu}>
-          Arby's
+          Arby&apos;s
         </li>
       </Link>
       <Link href="/burgerking">
@@ -41,7 +41,7 @@ const SidePanel = ({ isOpen, closeMenu }) => {
       </Link>
       <Link href="/mcdonalds">
         <li className="fast-food-item" onClick={closeMenu}>
-          McDonald's
+          McDonalds
         </li>
       </Link>
       <Link href="/starbucks">
@@ -61,7 +61,7 @@ const SidePanel = ({ isOpen, closeMenu }) => {
       </Link>
       <Link href="/wendys">
         <li className="fast-food-item" onClick={closeMenu}>
-          Wendy's
+          Wendys
         </li>
     </Link>
     </ul>
