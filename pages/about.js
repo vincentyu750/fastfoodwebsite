@@ -10,6 +10,9 @@ const About = () => {
         Fast Food Facts is dedicated to providing you with the latest and greatest in fast-food
         information.
       </p>
+      <p className="text-lg mb-8">
+        This website is an informative website to help people learn more about nutrition and know the nutrion info of popular food choices.
+      </p>
     </div>
   );
 };
