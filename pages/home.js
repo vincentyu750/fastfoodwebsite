@@ -1,6 +1,4 @@
 // pages/home.js
-import Link from 'next/link';
-import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (

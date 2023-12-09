@@ -52,20 +52,45 @@ header a:hover {
   color: #000; /* Change color on hover */
 }
 
-.side-panel {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: 100vh;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    transform: translateX(-100%);
-  }
-  
-  .side-panel.show {
-    transform: translateX(0);
-  }
+.fast-food-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-/* Add more global styles as needed */
+.fast-food-item {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Style the SidePanel */
+.side-panel {
+  width: 25%; /* or w-1/4 for 25% */
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+/* Adjust the transform based on the side panel state */
+.transform.translate-x-0 {
+  transform: translateX(0);
+}
+
+.transform {
+  transform: translateX(-100%);
+}
+
