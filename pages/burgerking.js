@@ -1,5 +1,5 @@
 // pages/burgerking.js
-
+import Image from 'next/image';
 import React from 'react';
 
 const BurgerKing = () => {
@@ -10,7 +10,7 @@ const BurgerKing = () => {
       {/* Burger King Nutrition Breakfast Menu */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Burger King Nutrition Breakfast Menu</h2>
-        <img
+        <Image
           src="/images/BurgerKing/Burger-King-Nutrition-Breakfast-Menu-768x1707.jpg.webp"
           alt="Burger King Nutrition Breakfast Menu"
           className="w-full"
@@ -20,7 +20,7 @@ const BurgerKing = () => {
       {/* Burger King Nutrition Burgers */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Burger King Nutrition Burgers</h2>
-        <img
+        <Image
           src="/images/BurgerKing/Burger-King-Nutrition-Burgers-768x960.jpg.webp"
           alt="Burger King Nutrition Burgers"
           className="w-full"
@@ -30,7 +30,7 @@ const BurgerKing = () => {
       {/* Burger King Nutrition Chicken */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Burger King Nutrition Chicken</h2>
-        <img
+        <Image
           src="/images/BurgerKing/Burger-King-Nutrition-Chicken-768x960.jpg.webp"
           alt="Burger King Nutrition Chicken"
           className="w-full"
@@ -40,7 +40,7 @@ const BurgerKing = () => {
       {/* Burger King Nutrition Sides */}
       <div>
         <h2 className="text-2xl font-bold mb-2">Burger King Nutrition Sides</h2>
-        <img
+        <Image
           src="/images/BurgerKing/Burger-King-Nutrition-Sides-768x960.jpg.webp"
           alt="Burger King Nutrition Sides"
           className="w-full"

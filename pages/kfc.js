@@ -1,5 +1,5 @@
 // pages/kfc.js
-
+import Image from 'next/image';
 import React from 'react';
 
 const KFC = () => {
@@ -10,7 +10,7 @@ const KFC = () => {
       {/* KFC Chicken Menu Calories and Nutrition */}
       <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">KFC Chicken Menu Calories and Nutrition</h2>
-        <img
+        <Image
           src="/images/KFC/KFC-Chicken-Menu-Calories-and-Nutrition-768x960.jpg.webp"
           alt="KFC Chicken Menu Calories and Nutrition"
           className="w-full"
@@ -20,7 +20,7 @@ const KFC = () => {
       {/* KFC Sides and Sauces Calories */}
       <div>
         <h2 className="text-2xl font-bold mb-2">KFC Sides and Sauces Calories</h2>
-        <img
+        <Image
           src="/images/KFC/KFC-Sides-and-Sauces-Calories-768x960.jpg.webp"
           alt="KFC Sides and Sauces Calories"
           className="w-full"
@@ -30,7 +30,7 @@ const KFC = () => {
             {/* Chicken Sandwich Calorie Comparison */}
             <div className="mb-8">
         <h2 className="text-2xl font-bold mb-2">Chicken Sandwich Calorie Comparison</h2>
-        <img
+        <Image
           src="/images/KFC/Chicken-Sandwich-Calorie-Comparison-735x919.jpg.webp"
           alt="Chicken Sandwich Calorie Comparison"
           className="w-full"
